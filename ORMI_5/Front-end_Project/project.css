@@ -1,0 +1,248 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard-Regular';
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: #f2e9d8;
+  display: flex;
+  padding: 26px 320px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 0px 15px 0px 15px;
+}
+
+.nav-item {
+  margin: 0px 15px 0px 15px;
+}
+
+.nav-item2 {
+  display: flex;
+  width: 140px;
+  height: 50px;
+  border-radius: 40px;
+  color: white;
+  font-weight: bolder;
+  background-color: #d97652;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.main {
+  background-color: #f2e9d8;
+  display: flex;
+  padding: 0px 320px;
+  justify-content: space-between;
+}
+
+.main-text {
+  align-content: center;
+}
+
+.main-text-item {
+  font-size: 48px;
+}
+
+.main-text-item2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 16px;
+}
+
+.download-button {
+  width: 140px;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  border-radius: 40px;
+  background-color: #d97652;
+  text-align: center;
+  align-content: center;
+}
+
+.best-photo {
+  display: flex;
+  padding: 80px 320px;
+  justify-content: space-between;
+}
+
+.best-photo-text {
+  align-content: center;
+}
+
+.best-photo-text > h1 {
+  font-size: 36px;
+}
+
+.best-photo-text > div {
+  margin-top: 40px;
+}
+
+.gallery-name {
+  text-align: center;
+  font-size: 48px;
+  color: #d97652;
+}
+
+.gallery-sub-text {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 88px;
+}
+
+.gallery-sub-text > span {
+  color: #d97652;
+}
+
+.gallery-picture {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.more-text {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 26px;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.wrap-more-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.more-button {
+  width: 140px;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  border-radius: 40px;
+  background-color: #d97652;
+  text-align: center;
+  align-content: center;
+}
+
+hr {
+  background-color: #c4c4c4;
+  width: 1278px;
+  margin: auto;
+}
+
+.con-map {
+  display: flex;
+  flex-direction: column;
+  margin-top: 68px;
+  margin-left: 320px;
+}
+
+.item-map2 {
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+.con-map > image {
+  margin-bottom: 80px;
+}
+
+.post-contaner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  height: 200px;
+  background-color: #263140;
+  color: white;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 0 auto;
+  margin-top: 81px;
+}
+
+.post-item {
+  font-size: 14px;
+  margin-left: 8px;
+  margin-bottom: 18px;
+}
+
+.post-item > span {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.mail-container {
+  display: flex;
+  width: 530px;
+  height: 60px;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 60px;
+  overflow: hidden;
+  background-color: white;
+  justify-content: space-between;
+  padding-right: 6px;
+}
+
+.mail-icon {
+  margin-left: 28px;
+}
+
+.mail-input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  flex: 1;
+  font-size: 16px;
+}
+
+.mail-button {
+  width: 135px;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+  background-color: #d97652;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.mail-button:hover {
+  background-color: #45a049;
+}
+
+.bottom {
+  position: relative;
+  margin-top: -101px;
+  z-index: -1;
+}
+
+.scroll-top {
+  position: absolute;
+  left: 1800px;
+  bottom: 20px;
+}
