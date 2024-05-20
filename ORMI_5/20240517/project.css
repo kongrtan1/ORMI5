@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard-Regular';
+  text-decoration: none;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+.post-contaner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  height: 200px;
+  background-color: #263140;
+  color: white;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 0 auto;
+  margin-top: 81px;
+  z-index: 2;
+}
+
+.post-item {
+  font-size: 14px;
+  margin-left: 8px;
+  margin-bottom: 18px;
+}
+
+.post-item > span {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.mail-container {
+  display: flex;
+  width: 530px;
+  height: 60px;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 60px;
+  overflow: hidden;
+  background-color: white;
+  justify-content: space-between;
+  padding-right: 6px;
+}
+
+.mail-icon {
+  margin-left: 28px;
+}
+
+.mail-input {
+  border: none;
+  outline: none;
+  margin: 10px;
+  flex: 1;
+  font-size: 16px;
+}
+
+.mail-button {
+  width: 135px;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+  background-color: #d97652;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.mail-button:hover {
+  background-color: #45a049;
+}
+
+.image-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bottom-img {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0; /* Ensure image is below the text */
+  margin-top: 500px;
+}
