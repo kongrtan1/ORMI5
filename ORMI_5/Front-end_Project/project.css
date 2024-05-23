@@ -28,24 +28,13 @@ body {
   align-items: center;
 }
 
-.menu-bar {
+.header-nav-menu {
   display: flex;
   align-items: center;
   gap: 20px;
-  margin: 0px 15px 0px 15px;
 }
 
-.dropdown-bar {
-  display: inline-flex;
-  align-items: center;
-  cursor: pointer;
-}
-
-.dropdown-content {
-  display: none;
-}
-
-.nav-item2 {
+.header-nav-menu-download {
   display: flex;
   width: 140px;
   height: 50px;
@@ -58,28 +47,26 @@ body {
   margin-left: 19px;
 }
 
-.main {
+.main-content {
   background-color: #f2e9d8;
   display: flex;
-  padding: 0px 320px;
   justify-content: space-between;
 }
 
-.main-text {
-  align-content: center;
+.main-content-item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 320px;
+  margin-top: 200px;
 }
 
-.main-text-item {
+.main-content-title {
+  margin-bottom: 40px;
   font-size: 48px;
 }
 
-.main-text-item2 {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 16px;
-}
-
-.download-button {
+.main-content-download {
+  margin-top: 40px;
   width: 140px;
   height: 50px;
   color: white;
@@ -90,35 +77,43 @@ body {
   align-content: center;
 }
 
-.best-photo {
+.main-content-img {
+  margin-right: 320px;
+}
+
+.best-content {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 80px 320px;
 }
 
-.best-photo-text > h2 {
+.best-content-txt {
+  margin-left: 110px;
+}
+
+.best-content-txt > h2 {
   font-size: 36px;
   margin-bottom: 30px;
 }
 
-.gallery-name {
+.gallery-title {
   text-align: center;
   font-size: 48px;
   color: #d97652;
   margin-bottom: 40px;
 }
 
-.gallery-sub-text {
+.gallery > p {
   text-align: center;
   margin-bottom: 88px;
 }
 
-.gallery-sub-text > span {
+.gallery > p > span {
   color: #d97652;
 }
 
-.gallery-con {
+.gallery-photo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +124,7 @@ body {
   margin-right: 320px;
 }
 
-.more-text {
+.gallery-bottom > p {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 26px;
@@ -137,13 +132,13 @@ body {
   font-weight: bolder;
 }
 
-.wrap-more-button {
+.gallery-bottom-button-wrap {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
 }
 
-.more-button {
+.gallery-bottom-button {
   width: 140px;
   height: 50px;
   color: white;
@@ -157,30 +152,32 @@ body {
 hr {
   background-color: #c4c4c4;
   width: 1278px;
-  margin: auto;
+  margin-left: 320px;
 }
 
-.con-map {
+.map {
   display: flex;
   flex-direction: column;
-  margin-top: 68px;
-}
-
-.item-map2 {
-  margin-top: 20px;
-  margin-bottom: 48px;
 }
 
 .map-txt {
+  margin-top: 68px;
   margin-left: 320px;
   display: flex;
   flex-direction: column;
 }
 
-.api-map {
+.map-txt > p {
+  margin-top: 20px;
+}
+
+#map-api {
+  width: 1278px;
+  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .post {
@@ -204,15 +201,16 @@ hr {
   z-index: 2;
 }
 
-.post-item {
-  font-size: 14px;
-  margin-left: 8px;
-  margin-bottom: 18px;
-}
-
-.post-item > span {
+.post-txt {
   font-size: 36px;
   font-weight: bolder;
+}
+
+.post-txt > p {
+  font-size: 14px;
+  margin-top: 18px;
+  margin-left: 8px;
+  margin-bottom: 18px;
 }
 
 .mail-container {
@@ -292,11 +290,9 @@ hr {
   font-weight: bolder;
 }
 
-p {
+.modal-text > p {
   position: absolute;
-  top: 254px;
-  left: 117.5px;
-  display: flex;
+  top:18px
   justify-content: center;
   font-size: 14px;
 }

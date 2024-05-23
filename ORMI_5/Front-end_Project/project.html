@@ -9,69 +9,57 @@
   </head>
   <body>
     <header class="header">
-      <a href="#">
-        <img src="Logo-fin.svg" alt="HODU" />
-      </a>
-      <nav class="menu-bar">
-        <div class="dropdown-bar">Home</div>
-          <div class="dropdown-content">
-            <a href="#">하위 링크 1</a>
-            <a href="#">하위 링크 2</a>
-            <a href="#">하위 링크 3</a>
-          </div>
-        <div class="dropdown-bar">About</div>
-          <div class="dropdown-content">
-            <a href="#">하위 링크 1</a>
-            <a href="#">하위 링크 2</a>
-            <a href="#">하위 링크 3</a>
-          </div>
-        <div class="dropdown-bar">Support</div>
-          <div class="dropdown-content">
-            <a href="#">하위 링크 1</a>
-            <a href="#">하위 링크 2</a>
-            <a href="#">하위 링크 3</a>
-          </div>
-        <a href="#"><div class="nav-item2">Dowonload</div></a>
+      <a href="#"><img src="Logo-fin.svg" alt="HODU" /></a>
+      <nav class="header-nav-bar">
+        <div class="header-nav-menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Support</a>
+          <a href="#"><div class="header-nav-menu-download">Dowonload</div></a>
+        </div>
       </nav>
     </header>
-    <main class="main">
-      <div class="main-text">
-        <h1 class="main-text-item">
+    <main class="main-content">
+      <div class="main-content-item">
+        <h1 class="main-content-title">
           Lorem Ipsum is simply<br />
           dummy text of the printing and
         </h1>
-        <div class="main-text-item2">
+        <p>
           Lorem Ipsum is simply dummy text of the printing and <br />
           typesetting industry. <br />
           divLorem Ipsum has been the industry's standard dummy text <br />
           ever since the 1500s, when an unknown
-        </div>
-        <a href="#"><div class="download-button">Download</div></a>
+        </p>
+        <a href="#"><div class="main-content-download">Download</div></a>
       </div>
-        <img src="img_cat_png.png" alt="MainCat" width="415px" />
+      <div class="main-content-img">
+        <img src="img_cat_png.png" alt="main-cat" width="415px" />
+      </div>
     </main>
-    <section class="best-photo">
-      <img src="img_4.png" alt="BestCat" width="660px"/>
-      <div class="best-photo-text">
+    <section class="best-content">
+      <img src="img_4.png" alt="BestCat" width="660px" />
+      <div class="best-content-txt">
         <h2>
           Lorem Ipsum is simply <br />
           dummy text of the printing <br />
           and dummy text
         </h2>
-        <div>
+        <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting<br />
           industry.
-        </div>
+        </p>
       </div>
     </section>
     <article class="gallery">
-      <h1 class="gallery-name">dummy text of the printing and dummy</h1>
-      <div class="gallery-sub-text">
-        Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting
-        industry. <br />
+      <h1 class="gallery-title">dummy text of the printing and dummy</h1>
+      <p>
+        Lorem Ipsum is simply <span>dummy text</span> of the printing and
+        typesetting industry. <br />
         Lorem Ipsum has been the industry's standard dummy text ever since the
         1500s, when an unknown
-      <div class="gallery-con">
+      </p>
+      <div class="gallery-photo">
         <img src="img_1.png" alt="cat1" width="378px" />
         <img src="img_2.png" alt="cat1" width="378px" />
         <img src="img_3.png" alt="cat1" width="378px" />
@@ -79,31 +67,31 @@
         <img src="img_2 (1).png" alt="cat1" width="378px" />
         <img src="img_3 (1).png" alt="cat1" width="378px" />
       </div>
-        <div class="more-text">Continue exploring HODU</div>
-      <div class="wrap-more-button">
-        <a href="#"><div class="more-button">Show more</div></a>
+      <div class="gallery-bottom">
+        <p>Continue exploring HODU</p>
+        <div class="gallery-bottom-button-wrap">
+          <a href="#"><div class="gallery-bottom-button">Show more</div></a>
+        </div>
       </div>
     </article>
     <hr />
-    <article class="con-map">
+    <article class="map">
       <div class="map-txt">
-      <h1 class="item-map1">Where you'll be</h1>
-      <div class="item-map2">
-        330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea
+        <h1 class="map-title">Where you'll be</h1>
+        <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
       </div>
-      </div>
-      <div class="api-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5599.115128815965!2d126.56856956777189!3d33.4426943161092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cfdb22ad3cce3%3A0x1321aebb880d1b1!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOygnOyjvOyLnCDssqjri6jroZwgMzMw!5e0!3m2!1sko!2skr!4v1716189120163!5m2!1sko!2skr" width="1278" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
+      <div id="map-api"></div>
     </article>
     <div class="post">
       <div class="post-contaner">
-        <div class="post-item">
-          <span>Subscribe to our Blog post</span><br /><br />
-          ply dummy text of the printing and typesetting industry. <br />
-          Lorem Ipsum has been the industry's standard dummy text
+        <div class="post-txt">
+          <h2>Subscribe to our Blog post</h2>
+          <p>
+            ply dummy text of the printing and typesetting industry. <br />
+            Lorem Ipsum has been the industry's standard dummy text
+          </p>
         </div>
-          <div class="mail-container">
+        <div class="mail-container">
           <img src="mail.svg" alt="메일 아이콘" class="mail-icon" />
           <input
             type="text"
@@ -113,13 +101,20 @@
           <button class="open-modal-btn">Subscribe</button>
           <div class="modal">
             <div class="modal-img-container">
-              <img src="modal-background.png" alt="Outer Image" class="Outer-Image"/>
+              <img
+                src="modal-background.png"
+                alt="Outer Image"
+                class="Outer-Image"
+              />
               <div class="inner-container">
                 <img src="modal-cat.png" alt="Inner Image" />
               </div>
-              <div class="modal-content"></div>
-              <div class="modal-text">Thank you!</div>
-              <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+              <div class="modal-text">
+                <div>Thank you!</div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing industry.
+                </p>
+              </div>
               <div class="close-btn">
                 <button class="close">OK! I Love HODU</button>
               </div>
@@ -128,14 +123,16 @@
         </div>
       </div>
       <div class="image-wrapper">
-          <img src="img_5.png" alt="" class="bottom-img" />
+        <img src="img_5.png" alt="" class="bottom-img" />
         <div class="bottom">
-          <a href="#"><img src="scroll-top-btn.png" alt="scroll-top" class="scroll-top" /></a>
+          <a href="#"
+            ><img src="scroll-top-btn.png" alt="scroll-top" class="scroll-top"
+          /></a>
         </div>
       </div>
     </div>
     <footer class="footer">
-      <img src="Logo-fin.svg" alt="hodu-logo" class="footer-logo"/>
+      <img src="Logo-fin.svg" alt="hodu-logo" class="footer-logo" />
       <ul class="sns">
         <a href="#"
           ><li><img src="icon-blog.png" alt="" /></li
