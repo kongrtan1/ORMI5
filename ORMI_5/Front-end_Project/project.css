@@ -114,14 +114,19 @@ body {
 }
 
 .gallery-photo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 42px;
-  margin-top: 88px;
   margin-left: 320px;
   margin-right: 320px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
+.gallery-photo img {
+  width: 328px;
+  height: 328px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
 }
 
 .gallery-bottom > p {
@@ -132,51 +137,83 @@ body {
   font-weight: bolder;
 }
 
-.gallery-bottom-button-wrap {
+.gallery-bottom-wrap {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
 }
 
-.gallery-bottom-button {
+.이미지로딩 {
+  margin-top: 38px;
   width: 140px;
   height: 50px;
   color: white;
   font-size: 16px;
+  border:none;
+  cursor: pointer;
   border-radius: 40px;
   background-color: #d97652;
   text-align: center;
-  align-content: center;
 }
+
+.img-width img {
+  width: 328px;
+  height: 328px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
+
+  }
+  
+.list-pic {
+  margin-left: 320px;
+  margin-right: 320px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 72px;
+  list-style-type: none;
+}
+
+.hr-wrap {
+  display: flex;
+  justify-content: center;
+}
+
 
 hr {
   background-color: #c4c4c4;
   width: 1278px;
-  margin-left: 320px;
 }
 
 .map {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  margin-left: 320px;
+  margin-right: 320px;
+  /* align-items: center */
 }
 
 .map-txt {
-  margin-top: 68px;
-  margin-left: 320px;
   display: flex;
   flex-direction: column;
+  margin-top: 68px;
 }
 
 .map-txt > p {
   margin-top: 20px;
 }
 
-#map-api {
-  width: 1278px;
-  height: 450px;
+.map-api-wrap {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  align-items: center
+}
+
+#map-api {
+  width:1278px; 
+  height: 520px;
+  display: flex;
+  margin-top: 48px;
   margin-bottom: 80px;
 }
 
@@ -202,18 +239,16 @@ hr {
 }
 
 .post-txt {
-  font-size: 36px;
-  font-weight: bolder;
+  font-size: 14px;
+  margin-left: 58px;
 }
 
-.post-txt > p {
-  font-size: 14px;
-  margin-top: 18px;
-  margin-left: 8px;
+.post-txt > span {
+  font-size: 36px;
   margin-bottom: 18px;
 }
 
-.mail-container {
+.post-mail-container {
   display: flex;
   width: 530px;
   height: 60px;
@@ -225,11 +260,11 @@ hr {
   padding-right: 6px;
 }
 
-.mail-icon {
+.post-mail-container img {
   margin-left: 28px;
 }
 
-.mail-input {
+.post-mail-input {
   border: none;
   outline: none;
   margin: 10px;
@@ -241,6 +276,7 @@ hr {
   width: 135px;
   height: 50px;
   border: none;
+  margin-left: 50px;
   border-radius: 40px;
   background-color: #d97652;
   color: white;
@@ -290,11 +326,11 @@ hr {
   font-weight: bolder;
 }
 
-.modal-text > p {
+.modal-text-p {
   position: absolute;
-  top:18px
-  justify-content: center;
-  font-size: 14px;
+  top: 246px;
+  left: 94px;
+  font-size: 16px;
 }
 
 .close {
